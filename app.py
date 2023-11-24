@@ -13,7 +13,7 @@ st.title("Sports Image Classification")
 st.write("Predict the sport that is being represented in the image.")
 
 #model = load_model("my_model.keras")
-model = from_pretrained_keras('SateeshAmbesange/sportClassification')
+model = from_pretrained_keras('isharani/sportClassification')
 #extractor = AutoFeatureExtractor.from_pretrained("yangy50/garbage-classification")
 #model = AutoModelForImageClassification.from_pretrained("yangy50/garbage-classification")
 #extractor = AutoFeatureExtractor.from_pretrained("keras-io/Image-Classification-using-EANet")
